@@ -1,0 +1,10 @@
+C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\bin\Debug\Pronatur Biomarkt GmbH.exe.config
+C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\bin\Debug\Pronatur Biomarkt GmbH.exe
+C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\bin\Debug\Pronatur Biomarkt GmbH.pdb
+C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\obj\Debug\Pronatur Biomarkt GmbH.csproj.AssemblyReference.cache
+C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\obj\Debug\Pronatur_Biomarkt_GmbH.Properties.Resources.resources
+C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\obj\Debug\Pronatur Biomarkt GmbH.csproj.GenerateResource.cache
+C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\obj\Debug\Pronatur Biomarkt GmbH.csproj.CoreCompileInputs.cache
+C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\obj\Debug\Pronatur Biomarkt GmbH.exe
+C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\obj\Debug\Pronatur Biomarkt GmbH.pdb
+C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\obj\Debug\Pronatur_Biomarkt_GmbH.LoadingScreen.resources
