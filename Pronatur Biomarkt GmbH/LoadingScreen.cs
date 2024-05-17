@@ -20,7 +20,6 @@ namespace Pronatur_Biomarkt_GmbH
         }
 
      
-
         private void LoadingScreen_Load(object sender, EventArgs e)
         {
             LoadingBarTimer.Start();
@@ -37,6 +36,11 @@ namespace Pronatur_Biomarkt_GmbH
             if (loadingBarValue >= 100)
             {
                 LoadingBarTimer.Stop();
+
+                //Finish loading
+                MainMenuScreen mainMenuScreen = new MainMenuScreen();
+                mainMenuScreen.Show();
+                this.Hide();
             }
         }
 
