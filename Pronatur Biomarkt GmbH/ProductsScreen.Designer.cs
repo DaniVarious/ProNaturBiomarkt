@@ -40,8 +40,8 @@
             this.buttonProductEdit = new System.Windows.Forms.Button();
             this.buttonProductClear = new System.Windows.Forms.Button();
             this.buttonProductDelete = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dataGridViewProducts = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProducts)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -181,14 +181,26 @@
             this.buttonProductDelete.UseVisualStyleBackColor = false;
             this.buttonProductDelete.Click += new System.EventHandler(this.buttonProductDelete_Click);
             // 
-            // dataGridView1
+            // dataGridViewProducts
             // 
-            this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 240);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(914, 243);
-            this.dataGridView1.TabIndex = 13;
+            this.dataGridViewProducts.AllowUserToAddRows = false;
+            this.dataGridViewProducts.AllowUserToDeleteRows = false;
+            this.dataGridViewProducts.AllowUserToOrderColumns = true;
+            this.dataGridViewProducts.AllowUserToResizeColumns = false;
+            this.dataGridViewProducts.AllowUserToResizeRows = false;
+            this.dataGridViewProducts.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridViewProducts.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewProducts.Location = new System.Drawing.Point(12, 267);
+            this.dataGridViewProducts.MultiSelect = false;
+            this.dataGridViewProducts.Name = "dataGridViewProducts";
+            this.dataGridViewProducts.ReadOnly = true;
+            this.dataGridViewProducts.RowHeadersVisible = false;
+            this.dataGridViewProducts.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridViewProducts.Size = new System.Drawing.Size(707, 216);
+            this.dataGridViewProducts.TabIndex = 13;
+            this.dataGridViewProducts.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewProducts_CellContentClick);
             // 
             // ProductsScreen
             // 
@@ -196,8 +208,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.BackgroundImage = global::Pronatur_Biomarkt_GmbH.Properties.Resources.ImgBgProducts;
-            this.ClientSize = new System.Drawing.Size(938, 495);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(733, 495);
+            this.Controls.Add(this.dataGridViewProducts);
             this.Controls.Add(this.buttonProductDelete);
             this.Controls.Add(this.buttonProductClear);
             this.Controls.Add(this.buttonProductEdit);
@@ -215,7 +227,8 @@
             this.Name = "ProductsScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProductsScreen";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.ProductsScreen_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProducts)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -235,6 +248,6 @@
         private System.Windows.Forms.Button buttonProductEdit;
         private System.Windows.Forms.Button buttonProductClear;
         private System.Windows.Forms.Button buttonProductDelete;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dataGridViewProducts;
     }
 }
