@@ -22,6 +22,7 @@ namespace Pronatur_Biomarkt_GmbH
             ProductsScreen productsScreen = new ProductsScreen();
             productsScreen.Show();
             this.Hide();
+
         }
     }
 }
