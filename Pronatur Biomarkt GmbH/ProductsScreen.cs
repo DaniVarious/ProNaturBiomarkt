@@ -16,5 +16,25 @@ namespace Pronatur_Biomarkt_GmbH
         {
             InitializeComponent();
         }
+
+        private void buttonProductSave_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(textBoxProductName.Text);
+        }
+
+        private void buttonProductEdit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonProductClear_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonProductDelete_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
