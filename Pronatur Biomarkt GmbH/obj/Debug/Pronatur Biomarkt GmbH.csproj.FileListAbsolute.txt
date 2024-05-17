@@ -8,3 +8,6 @@ C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\obj\Debug\Pronatur 
 C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\obj\Debug\Pronatur Biomarkt GmbH.exe
 C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\obj\Debug\Pronatur Biomarkt GmbH.pdb
 C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\obj\Debug\Pronatur_Biomarkt_GmbH.LoadingScreen.resources
+C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\obj\Debug\Pronatur_Biomarkt_GmbH.MainMenuScreen.resources
+C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\obj\Debug\Pronatur_Biomarkt_GmbH.ProductsScreen.resources
+C:\Development\Pronatur Biomarkt GmbH\Pronatur Biomarkt GmbH\bin\Debug\Resources\BtnImgProducts.png
