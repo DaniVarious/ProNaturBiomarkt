@@ -59,18 +59,24 @@
             // textBoxProductName
             // 
             this.textBoxProductName.BackColor = System.Drawing.Color.Gray;
+            this.textBoxProductName.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxProductName.ForeColor = System.Drawing.Color.White;
             this.textBoxProductName.Location = new System.Drawing.Point(97, 48);
             this.textBoxProductName.Name = "textBoxProductName";
-            this.textBoxProductName.Size = new System.Drawing.Size(294, 20);
+            this.textBoxProductName.Size = new System.Drawing.Size(294, 25);
             this.textBoxProductName.TabIndex = 1;
+            this.textBoxProductName.Text = "Name";
             // 
             // textBoxProductMarke
             // 
             this.textBoxProductMarke.BackColor = System.Drawing.Color.Gray;
+            this.textBoxProductMarke.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxProductMarke.ForeColor = System.Drawing.Color.White;
             this.textBoxProductMarke.Location = new System.Drawing.Point(97, 84);
             this.textBoxProductMarke.Name = "textBoxProductMarke";
-            this.textBoxProductMarke.Size = new System.Drawing.Size(195, 20);
+            this.textBoxProductMarke.Size = new System.Drawing.Size(195, 22);
             this.textBoxProductMarke.TabIndex = 3;
+            this.textBoxProductMarke.Text = "Marke";
             // 
             // label2
             // 
@@ -99,10 +105,13 @@
             // textBoxProductsPrice
             // 
             this.textBoxProductsPrice.BackColor = System.Drawing.Color.Gray;
+            this.textBoxProductsPrice.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxProductsPrice.ForeColor = System.Drawing.Color.White;
             this.textBoxProductsPrice.Location = new System.Drawing.Point(98, 165);
             this.textBoxProductsPrice.Name = "textBoxProductsPrice";
-            this.textBoxProductsPrice.Size = new System.Drawing.Size(74, 20);
+            this.textBoxProductsPrice.Size = new System.Drawing.Size(74, 25);
             this.textBoxProductsPrice.TabIndex = 7;
+            this.textBoxProductsPrice.Text = "1,99";
             // 
             // label4
             // 
@@ -119,6 +128,8 @@
             // comboBoxProductCathegory
             // 
             this.comboBoxProductCathegory.BackColor = System.Drawing.Color.Gray;
+            this.comboBoxProductCathegory.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxProductCathegory.ForeColor = System.Drawing.Color.White;
             this.comboBoxProductCathegory.FormattingEnabled = true;
             this.comboBoxProductCathegory.Items.AddRange(new object[] {
             "Obst",
@@ -130,8 +141,9 @@
             "Getränke"});
             this.comboBoxProductCathegory.Location = new System.Drawing.Point(98, 121);
             this.comboBoxProductCathegory.Name = "comboBoxProductCathegory";
-            this.comboBoxProductCathegory.Size = new System.Drawing.Size(194, 21);
+            this.comboBoxProductCathegory.Size = new System.Drawing.Size(194, 26);
             this.comboBoxProductCathegory.TabIndex = 8;
+            this.comboBoxProductCathegory.Text = "Kat";
             // 
             // buttonProductSave
             // 
@@ -185,7 +197,6 @@
             // 
             this.dataGridViewProducts.AllowUserToAddRows = false;
             this.dataGridViewProducts.AllowUserToDeleteRows = false;
-            this.dataGridViewProducts.AllowUserToOrderColumns = true;
             this.dataGridViewProducts.AllowUserToResizeColumns = false;
             this.dataGridViewProducts.AllowUserToResizeRows = false;
             this.dataGridViewProducts.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
@@ -200,7 +211,7 @@
             this.dataGridViewProducts.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewProducts.Size = new System.Drawing.Size(707, 216);
             this.dataGridViewProducts.TabIndex = 13;
-            this.dataGridViewProducts.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewProducts_CellContentClick);
+            this.dataGridViewProducts.SelectionChanged += new System.EventHandler(this.dataGridViewProducts_SelectionChanged);
             // 
             // ProductsScreen
             // 
